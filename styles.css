@@ -1,0 +1,85 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 90rem;
+  background-image: url('images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  padding: 3.6rem 4.2rem;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  height: 100%;
+  min-width: 100vh;
+}
+
+.logo {
+  margin-bottom: 5.6rem;
+}
+.main {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 3.6rem;
+}
+.main-text {
+  /* width: 800px; */
+  margin-top: 3.4rem;
+}
+.header {
+  color: #fff;
+  font-size: 2.6rem;
+  margin-bottom: 1.8rem;
+  font-weight: 600;
+}
+
+.main-text p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.btn-reg {
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.2rem;
+  /*width: 10rem;
+  height: 3rem;
+  */
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.btn-reg:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.icons {
+  position: absolute;
+  bottom: 9rem;
+  right: 8rem;
+}
+
+.icons i {
+  font-size: 2.4rem;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+footer {
+  margin-top: 5.6rem;
+}
